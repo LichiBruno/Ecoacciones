@@ -3,8 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
   container: {
     height: '100%',
-    'overflow-y': 'auto',
-    'overflow-x': 'hidden',
   },
   giphy: {
     'min-width': 768,

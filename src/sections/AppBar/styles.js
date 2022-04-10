@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
   toolbar: {
     'justify-content': 'space-between',
+    'max-width': '100%'
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,

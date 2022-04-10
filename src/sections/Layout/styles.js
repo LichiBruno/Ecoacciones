@@ -5,7 +5,6 @@ const useStyles = makeStyles(theme => ({
   wrapper: {
     flexGrow: 1,
     height: '100vh',
-    overflow: 'hidden',
     position: 'relative',
   },
   content: {

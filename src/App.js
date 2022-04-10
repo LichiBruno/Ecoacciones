@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollBar from './components/ScrollBar/Component';
 
 import { RecoilRoot } from 'recoil';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -15,6 +16,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <RecoilRoot>
+      <ScrollBar />
       <ThemeProvider>
         <Fb>
           <CssBaseline />

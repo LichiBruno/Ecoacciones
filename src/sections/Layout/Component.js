@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Content from 'sections/Content';
-import Copyright from 'sections/Copyright';
 import Navigation from 'sections/Navigation';
 import Notifications from 'sections/Notifications';
 
@@ -19,7 +18,6 @@ function Layout() {
         <Fb className={classes.spacer} />
         <Fb column justifyBetween className={classes.content}>
           <Content />
-          <Copyright />
         </Fb>
       </Fb>
     </>

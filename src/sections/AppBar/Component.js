@@ -39,9 +39,9 @@ function AppBar_({ onMenuOpen }) {
 
   return (
     <AppBar
-      position="absolute"
+      position="fixed"
       className={classes.appBar}
-      color="transparent"
+      color="default"
       elevation={1}
     >
       <Toolbar className={classes.toolbar}>
