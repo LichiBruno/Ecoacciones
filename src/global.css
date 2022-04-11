@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .full-width {
@@ -21,9 +23,10 @@ body {
 }
 
 .Chapters {
-  max-height: 20em;
+  height: 20em;
 }
 
-.Chapters::-webkit-scrollbar {
+/* hide scrollbar Chrome, Safari and Opera */
+::-webkit-scrollbar {
   display: none;
 }
