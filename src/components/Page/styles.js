@@ -11,6 +11,7 @@ const useStyles = makeStyles(theme => ({
     'margin-left': isMobile ? 'auto' : '',
     'margin-right': isMobile ? 'auto' : '',
     // 'text-align': isMobile ? 'center' : '',
+    'text-align': 'center',
     'padding-left': theme.spacing(isMobile ? 1.5 : 3),
     'padding-right': theme.spacing(isMobile ? 1.5 : 3),
   },

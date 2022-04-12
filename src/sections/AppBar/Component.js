@@ -63,8 +63,8 @@ function AppBar_({ onMenuOpen }) {
           {
             swState.isUpdated && (
               <>
-                <Tooltip title="The application has newer version; press to update" arrow>
-                  <IconButton aria-label="update the application" color="secondary" onClick={handleAppUpdate}>
+                <Tooltip title="¡Hay una nueva versión de la app! Toca para actualizar." arrow>
+                  <IconButton aria-label="Actualizar app" color="secondary" onClick={handleAppUpdate}>
                     <RedoIcon />
                   </IconButton>
                 </Tooltip>
@@ -86,7 +86,7 @@ function AppBar_({ onMenuOpen }) {
           <Divider orientation="vertical" flexItem />
           <Tooltip title="Cambiar tema" arrow>
             <IconButton
-              aria-label="toggle theme"
+              aria-label="Cambiar tema"
               edge="end"
               onClick={handleToggleTheme}
             >
