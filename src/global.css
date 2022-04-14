@@ -43,9 +43,13 @@ p{
 }
 
 h4 {
-  padding-top: 1em;
+  padding-top: .5em;
 }
 
 li {
   text-align: justify;
+}
+
+a {
+  color: inherit;
 }
