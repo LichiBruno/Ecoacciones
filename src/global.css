@@ -23,6 +23,11 @@ body {
   height: 100%;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 .Chapters {
   height: 20em;
 }
@@ -30,4 +35,17 @@ body {
 /* hide scrollbar Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
+}
+
+p{
+  padding-bottom: 1.5em;
+  text-align: start;
+}
+
+h4 {
+  padding-top: 1em;
+}
+
+li {
+  text-align: justify;
 }
