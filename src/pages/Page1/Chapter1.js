@@ -122,7 +122,7 @@ function Chapter1() {
         informe{" "}
         <a
           href="https://www.copade.gob.ar/bases-acciones-y-estrategias/"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <strong>Bases, Acciones y Estrategias</strong>
@@ -142,7 +142,7 @@ function Chapter1() {
         proyecto descargable{" "}
         <a
           href="https://www.copade.gob.ar/agencia-neuquina-de-innovacion-para-el-desarrollo/"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           aquí
