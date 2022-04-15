@@ -14,7 +14,7 @@ function Chapter1() {
           height: "2em",
         }}
       />
-      <h3>Contexto general</h3>
+      <h3 style={orange}>Contexto general</h3>
       <p>
         En este capítulo revisamos los aspectos generales del contexto global
         que nos atraviesa, estableciendo los interrogantes esenciales que
@@ -23,7 +23,7 @@ function Chapter1() {
         reflexión necesaria, definir objetivos y ejecutar los grandes o pequeños
         cambios que se requieran.
       </p>
-      <h3>El cambio climático</h3>
+      <h3 style={orange}>El cambio climático</h3>
       <h4>¿Qué relación tiene con las ciudades y la ciudadanía?</h4>
       <p>
         La Organización de las Naciones Unidas (ONU) estima que en la actualidad
@@ -200,6 +200,10 @@ function Chapter1() {
       </p>
     </div>
   );
+}
+
+const orange = {
+  color: 'rgb(238, 86, 3)'
 }
 
 export default Chapter1;
