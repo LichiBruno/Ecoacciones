@@ -75,10 +75,10 @@ function Chapter2() {
       <p>Otra posibilidad es transformar algún objeto de uso y necesidad; también podemos utilizar materiales de descarte (cartones, latas, plásticos) para generar nuevos objetos, por ejemplo estantes fabricados con planchas superpuestas de cartón. Las posibilidades son infinitas y, si la experiencia es compartida, seguramente surjan nuevas ideas en el proceso.</p>
       <h3 style={yellow}>¿Qué es la obsolescencia programada?</h3>
       <p>Se entiende por obsolescencia programada a la disminución, de manera intencionada, de la vida útil de un producto por parte de sus fabricantes para incrementar su consumo. Esto genera que consumamos productos con una vida cada vez más corta generando un gran problema ambiental para el planeta.</p>
-      <div style={{borderColor: "rgb(255, 144, 1",boxShadow: "0px 0px 2em rgb(255, 144, 1", backgroundColor: "rgb(255, 144, 1" }}>
+      <div style={neonYellow}>
       <p>Según un informe de la ONU producimos cincuenta millones de toneladas de residuos electrónicos, lo que implica un poco más de 6kg. por cada habitante del mundo. Esto equivale a 125.000 aviones Jumbo (2019). El mismo informe advierte que la mitad de todos los desechos electrónicos son aparatos de uso personal como computadoras, tablets, teléfonos y televisores, el resto son electrodomésticos de mayor tamaño, equipos de calefacción y refrigeración.</p>
       </div>
-      <p>Resulta clave combatir la obsolescencia programada, que supone también un perjucio económico para quienes consumen, al tener que renovar sus productos con mayor frecuencia.</p>
+      <p style={{paddingTop: "1em"}}>Resulta clave combatir la obsolescencia programada, que supone también un perjucio económico para quienes consumen, al tener que renovar sus productos con mayor frecuencia.</p>
       <p>Las y los consumidores debemos exigir productos responsables con el ambiente y comprar de manera consciente. Ya hay mucha gente trabajando en una economía circular, pero es necesario continuar innovando para conseguir un planeta más sostenible.</p>
       <h3 style={yellow}>DESAFÍO 7 días</h3>
       <p>Durante esta semana te proponemos tratar de hacer pequeños trueques con personas de tu barrio o entorno de trabajo (tus amistades, tu familia, tu barrio y tu trabajo). Podés comenzar proponiendo cambiar con alguien algún objeto que esté en tu casa al que no le des uso (celular, cafetera, una juguera que compraste y está en un rincón). Tal vez puedas cambiarla por algo que te sea de utilidad y que posea otra persona.</p>
@@ -127,11 +127,19 @@ function Chapter2() {
 }
 
 const yellow = {
-  color: "rgb(255, 144, 1)",
+  color: "rgb(255, 144, 1)"
 };
 
 const paddingBottom = {
     paddingBottom: "2em"
+}
+
+const neonYellow = {
+  boxSizing: "1px",
+  border: "none",
+  borderRadius: "20px",
+  padding: "1em 0.5em 0.2em 1em",
+  boxShadow: "0px 5px 26px 8px rgb(255, 144, 1)"
 }
 
 export default Chapter2;
