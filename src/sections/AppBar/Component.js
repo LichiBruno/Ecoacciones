@@ -48,7 +48,7 @@ function AppBar_({ onMenuOpen }) {
         <Fb className={classes.main}>
           <IconButton
             edge="start"
-            aria-label="open menu"
+            aria-label="Menú"
             onClick={onMenuOpen}
           >
             <MenuIcon />
@@ -74,7 +74,7 @@ function AppBar_({ onMenuOpen }) {
           }
           <Tooltip title="COPADE" arrow>
             <IconButton
-              aria-label="go to COPADE page"
+              aria-label="ir a la página del COPADE"
               component="a"
               target="_blank"
               rel="noreferrer"

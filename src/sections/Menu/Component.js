@@ -12,7 +12,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 
 import {
-  FaHome as WelcomeIcon,
+  FaBookOpen as WelcomeIcon,
   FaRecycle as Recycle
 } from 'react-icons/fa';
 
@@ -42,9 +42,9 @@ function Menu({ isOpen, onClose, onOpen }) {
         <div className={classes.toolbar} />
         <StyledMenuItem onClick={onClose} component={RouterLink} to="/">
           <ListItemIcon>
-            <WelcomeIcon />
+            <WelcomeIcon style={{ color: "rgb(0, 136, 207)" }}/>
           </ListItemIcon>
-          <ListItemText primary="Bienvenido" />
+          <ListItemText primary="Introducción" />
         </StyledMenuItem>
         <StyledMenuItem onClick={onClose} component={RouterLink} to="/page-1">
           <ListItemIcon>
