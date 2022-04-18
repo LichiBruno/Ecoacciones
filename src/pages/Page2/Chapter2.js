@@ -69,7 +69,7 @@ function Chapter2() {
       <p><span style={yellow}><strong>REPARAR:</strong></span> Arreglar un producto si se daña para darle una segunda oportunidad. Reparar los objetos nos ayuda a cuidar nuestro planeta.</p>
       <p><span style={yellow}><strong>RECICLAR:</strong></span> Es el conjunto de operaciones de recolección, clasificación y "tratamiento" de residuos que permiten reintroducirlos en un nuevo ciclo de vida. Ejemplo: se utiliza la separación de residuos en origen para facilitar su reciclado, como el cartón, el papel, el vidrio y todo material que pueda procesarse nuevamente sin perder sus características funcionales.</p>
       <p>A esto podemos agregar la "R" que invita a <strong>REPENSAR</strong> nuestros hábitos y modo de vida, especialmente con respecto a nuestras necedidades básicas.</p>
-      <h3 style={yellow}>DESAFÍO 7 días</h3>
+      <h3 style={textGlow}>DESAFÍO 7 días</h3>
       <p>Te proponemos aprovechar tu tiempo libre realizando tareas de reuso, reparación o reciclado.</p>
       <p>La idea podría comenzar, por ejemplo, evaluando tu vestimenta y realizando remiendos creativos con hilos de bordar. Esta actividad se puede compartir en familia, incorporando a niñas y niños en la tarea, dibujando con bordados y remendando la ropa.</p>
       <p>Otra posibilidad es transformar algún objeto de uso y necesidad; también podemos utilizar materiales de descarte (cartones, latas, plásticos) para generar nuevos objetos, por ejemplo estantes fabricados con planchas superpuestas de cartón. Las posibilidades son infinitas y, si la experiencia es compartida, seguramente surjan nuevas ideas en el proceso.</p>
@@ -80,7 +80,7 @@ function Chapter2() {
       </div>
       <p style={{paddingTop: "1em"}}>Resulta clave combatir la obsolescencia programada, que supone también un perjucio económico para quienes consumen, al tener que renovar sus productos con mayor frecuencia.</p>
       <p>Las y los consumidores debemos exigir productos responsables con el ambiente y comprar de manera consciente. Ya hay mucha gente trabajando en una economía circular, pero es necesario continuar innovando para conseguir un planeta más sostenible.</p>
-      <h3 style={yellow}>DESAFÍO 7 días</h3>
+      <h3 style={textGlow}>DESAFÍO 7 días</h3>
       <p>Durante esta semana te proponemos tratar de hacer pequeños trueques con personas de tu barrio o entorno de trabajo (tus amistades, tu familia, tu barrio y tu trabajo). Podés comenzar proponiendo cambiar con alguien algún objeto que esté en tu casa al que no le des uso (celular, cafetera, una juguera que compraste y está en un rincón). Tal vez puedas cambiarla por algo que te sea de utilidad y que posea otra persona.</p>
       <p>Es un pequeño cambio de lugar para los objetos que utilizamos, pero implica también deshacernos de objetos que no necesitamos sin descartarlos en la "basura". Circular en nuestro entorno, sin recurrir a nuevos elementos de mercado.</p>
       <h3 style={yellow}>Residuos</h3>
@@ -122,6 +122,10 @@ function Chapter2() {
           <li><strong>CUIDAR EL AMBIENTE:</strong> Una pila o una batería tarda miles de años en degradarse, además de la contaminación que larga con sus ácidos, en cambio si se desechan con un método preestablecido para su desecho, evitamos la contaminación del medio.</li>
           <li><strong>COLABORAR CON LA GENERACIÓN DE NUEVOS PUESTOS DE TRABAJO:</strong> El reciclaje genera nuevas oportunidades laborales para personas que se encargan de producir objetos con ellos.</li>
       </ul>
+      <p>Esta diferencia de procesos hace que los materiales secos queden disponibles para la reutilización y el reciclaje y los húmedos se conviertan en basura, para luego de ser tratados como corresponde. Entonces, si repasamos este proceso, podemos concluir en que no generamos la misma cantidad de basura si separamos los residuos como corresponde, ya que en una parte va a ser reciclada y reutilizada y otra parte va a ser destinada como basura. Por esto, debemos hacer hincapié en la importancia que tiene la separación de residuos desde el hogar donde generamos todo tipo de desechos.</p>
+      <h3 style={textGlow}>DESAFÍO 21 días</h3>
+      <p>Durante 21 días te proponemos organizarte para hacer una separación de residuos en tu casa. De esta forma, no solo podrás tomar conciencia de tus hábitos de consumo, sino que además, si dispones de macetas o espacio en tu patio, podés comenzar a elaborar compost para tu jardín o huerta.</p>
+      <p>Podrás ver que hay muchas partes de los vegetales que utilizamos para cocinar que descartamos y que pueden ser destinadas para elaborar otras recetas (por ejemplo las pencas de acelga, la cáscara de papa o de banana). Aquí inician nuevas alternativas...</p>
     </div>
   );
 }
@@ -140,6 +144,11 @@ const neonYellow = {
   borderRadius: "20px",
   padding: "1em 0.5em 0.2em 1em",
   boxShadow: "0px 5px 26px 8px rgb(255, 144, 1)"
+}
+
+const textGlow = {
+  textShadow: "0 0 10px rgb(255, 144, 1), 0 0 20px rgb(255, 144, 1), 0 0 30px rgb(255, 144, 1), 0 0 40px rgb(255, 144, 1), 0 0 50px rgb(255, 144, 1)",
+  color: "inherit"
 }
 
 export default Chapter2;
