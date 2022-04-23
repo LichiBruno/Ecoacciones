@@ -19,7 +19,7 @@ function Page1() {
       />
       <Container maxWidth="md" className={classes.root}>
         <Typography variant="h5">
-          <Chapter1/>
+          <Chapter1 />
         </Typography>
       </Container>
     </>
