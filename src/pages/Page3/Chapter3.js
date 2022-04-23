@@ -24,17 +24,17 @@ const green = {
   color: "rgb(11, 126, 25)"
 };
 
-const neonGreen = {
-  boxSizing: "1px",
-  border: "none",
-  borderRadius: "20px",
-  padding: "1em 0.5em 0.2em 1em",
-  boxShadow: "0px 5px 26px 8px rgb(11, 126, 25)"
-}
+// const neonGreen = {
+//   boxSizing: "1px",
+//   border: "none",
+//   borderRadius: "20px",
+//   padding: "1em 0.5em 0.2em 1em",
+//   boxShadow: "0px 5px 26px 8px rgb(11, 126, 25)"
+// }
 
-const textGlow = {
-  textShadow: "0 0 10px rgb(11, 126, 25), 0 0 20px rgb(11, 126, 25), 0 0 30px rgb(11, 126, 25), 0 0 40px rgb(11, 126, 25), 0 0 50px rgb(11, 126, 25)",
-  color: "inherit"
-}
+// const textGlow = {
+//   textShadow: "0 0 10px rgb(11, 126, 25), 0 0 20px rgb(11, 126, 25), 0 0 30px rgb(11, 126, 25), 0 0 40px rgb(11, 126, 25), 0 0 50px rgb(11, 126, 25)",
+//   color: "inherit"
+// }
 
 export default Chapter3;
