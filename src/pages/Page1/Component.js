@@ -17,7 +17,7 @@ function Page1() {
         title="Capítulo 1"
         description="Capítulo 1"
       />
-      <Container maxWidth="sm" className={classes.root}>
+      <Container maxWidth="md" className={classes.root}>
         <Typography variant="h5">
           <Chapter1/>
         </Typography>

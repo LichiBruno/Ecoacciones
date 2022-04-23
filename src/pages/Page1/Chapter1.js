@@ -37,7 +37,8 @@ function Chapter1() {
         70% de las emisiones de gases de efecto invernadero derivadas de la
         energía, que absorben el calor y provocan el calentamiento de la Tierra.
       </p>
-      <h4>¿Cómo afecta el cambio climático a las ciudades?</h4>
+      <div style={neonOrange}>
+      <h4 style={textGlow}>¿Cómo afecta el cambio climático a las ciudades?</h4>
       <p>
         El informe "Las ciudades y el cambio climático. Orientaciones para
         políticas" (ONU hábitat: 2011) advierte que si bien los riesgos del
@@ -78,6 +79,7 @@ function Chapter1() {
         residuos sólidos, y cambios relacionados con el uso del suelo". (ONU
         Hábitat. 2011: 16)
       </p>
+      </div>
       <h4>
         ¿Qué se puede hacer frente a este escenario? ¿Qué podemos hacer como
         habitantes de las ciudades? ¿Qué propone esta guía?
@@ -192,7 +194,7 @@ function Chapter1() {
         nuestra perspectiva individual con aquella otra, la comunitaria. Nos
         hace partícipes activos del cambio. ¿Te sumás?
       </p>
-      <h4>¿Desafíos?</h4>
+      <h4 style={textGlow}>¿Desafíos?</h4>
       <p>
         A lo largo de esta guía encontrarás algunos pequeños desafíos para introducir
         cambios concretos en tu vida cotidiana, que nos permitan en conjunto comprometernos
@@ -204,6 +206,19 @@ function Chapter1() {
 
 const orange = {
   color: 'rgb(238, 86, 3)'
+}
+
+const neonOrange = {
+boxSizing: "1px",
+border: "none",
+borderRadius: "20px",
+padding: "1em 0.5em 0.2em 1em",
+boxShadow: "0px 5px 26px 8px rgb(238, 86, 3)"
+}
+
+const textGlow = {
+textShadow: "0 0 10px rgb(238, 86, 3), 0 0 20px rgb(238, 86, 3), 0 0 30px rgb(238, 86, 3), 0 0 40px rgb(238, 86, 3), 0 0 50px rgb(238, 86, 3)",
+color: "inherit"
 }
 
 export default Chapter1;
