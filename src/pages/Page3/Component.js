@@ -2,6 +2,7 @@ import React from 'react';
 
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import Chapter3 from './Chapter3'
 
 import Meta from 'components/Meta';
 
@@ -13,11 +14,13 @@ function Page3() {
   return (
     <>
       <Meta
-        title="Page 3"
-        description="Page 3"
+        title="Capítulo 3"
+        description="Capítulo 3"
       />
-      <Container maxWidth="sm" className={classes.root}>
-        <Typography variant="h3">Page 3</Typography>
+      <Container maxWidth="md" className={classes.root}>
+        <Typography variant="h5">
+          <Chapter3 />
+        </Typography>
       </Container>
     </>
   );
