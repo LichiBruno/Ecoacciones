@@ -17,7 +17,7 @@ function Page2() {
         title="Capítulo 2"
         description="Capítulo 2"
       />
-      <Container maxWidth="sm" className={classes.root}>
+      <Container maxWidth="md" className={classes.root}>
         <Typography variant="h5">
           <Chapter2/>
         </Typography>
