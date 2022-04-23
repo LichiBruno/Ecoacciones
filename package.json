@@ -1,7 +1,7 @@
 {
   "name": "react-pwa",
   "version": "1.1.0",
-  "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@testing-library/jest-dom": "^4.2.4",
@@ -22,6 +22,7 @@
     "state-local": "^1.0.1",
     "uuid": "^8.2.0"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
