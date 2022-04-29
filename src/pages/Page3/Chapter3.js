@@ -58,6 +58,14 @@ function Chapter3() {
         <p>Consiste en una pared de varias capas que modifica la temperatura promedio y la amplitud térmica.</p>
         <p>Desde el exterior, la radiación solar impacta sobre una superficie vidriada, que separada transmite calor a un muro que posee gran capacidad de acumular calor (como los de piedra que se ven a continuación). Así, este muro funciona acumulando calor durante el día, que transmite al interior durante la noche, cuando desciende la temperatura exterior, aumentando el confort en los espacios interiores de la vivienda.</p>
       </ul>
+      <h3 style={green}>Consejos Útiles</h3>
+      <ul>
+        <li>Aprovechá alguna reforma del hogar para incorporar aislación térmica en muros exteriores y techos: reducirás el consumo energético y, por lo tanto, las facturas de gas y electricidad.</li>
+        <li>Cuando tengas que cambiar puertas y/o ventanas, optá por incorporar carpinterías con doble vidriado hermético (DVH). Mejorarás el aislamiento térmico y acústico en los ambientes.</li>
+        <li>Si no te es posible cambiar las ventanas, entonces agregá burletes donde no haya y cambiá los que estén gastados.</li>
+        <li>Al incorporar aleros, parasoles y persianas, tené en cuenta que para la orientación norte la protección solar debe ser horizontal, mientras que al este y al oeste debe ser vertical.</li>
+        <li>Mantené cerradas las cortinas y/o persianas durante la noche, esto amortigua bastante la incidencia de las temperaturas bajas del exterior.</li>
+      </ul>
     </div>
   );
 }
