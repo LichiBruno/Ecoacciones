@@ -213,7 +213,8 @@ boxSizing: "1px",
 border: "none",
 borderRadius: "20px",
 padding: "1em 0.5em 0.2em 1em",
-boxShadow: "0px 5px 26px 8px rgb(238, 86, 3)"
+boxShadow: "0px 5px 26px 8px rgb(238, 86, 3)",
+margin: "2em 0 2em 0"
 }
 
 const textGlow = {

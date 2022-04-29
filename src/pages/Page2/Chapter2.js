@@ -92,7 +92,7 @@ function Chapter2() {
       <p>Así la cantidad de RSU que generan quienes habitan un área, refleja el consumo y producción de una sociedad y repercute no solo en el ambiente sino también en la salud humana.</p>
       <p>Es importante que en nuestras localidades el tratamiento de residuos se resuelva de modo correcto, en instalaciones adecuadas para no impactar negativamente sobre la calidad de vida.</p>
       <p>En Argentina, el manejo de los RSU está regulado por la Ley de Presupuestos Mínimos N°25916 que establece los presupuestos mínimos para un manejo adecuado de los residuos domiciliarios, a partir de propender a una gestión integral de los mismos, propiciar su valorización y promover su minimización en la generación y disposición final. En términos generales, comprenden desechos de hogares y centros comerciales, oficinas e industrias que, dada su composición, son comparables con aquellos generados en domicilios particulares.</p>
-      <h3 syle={yellow}>Hábitos de separación de residuos</h3>
+      <h3 style={yellow}>Hábitos de separación de residuos</h3>
       <p>La separación de residuos es clave para reducir la basura que se lleva a los vertederos, de este modo además cuidamos el ambiente</p>
       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i9DihYt8x-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p>Para ello, podemos considerar la siguiente diferenciación de residuos:</p>
@@ -133,7 +133,7 @@ function Chapter2() {
       <p>Podrás ver que hay muchas partes de los vegetales que utilizamos para cocinar que descartamos y que pueden ser destinadas para elaborar otras recetas (por ejemplo las pencas de acelga, la cáscara de papa o de banana). Aquí inician nuevas alternativas...</p>
       <p>¡En 21 días de cambios sostenidos lograremos ir forjando nuevos hábitos!</p>
       </div>
-      <h3 style={yellow}>REUTILIZAR Y RECICLAR PARA USO COTIDIANO</h3>
+      <h3 style={yellow}>Reutilizar y reciclar para uso cotidiano</h3>
       <p>A continuación, se listan algunas prácticas que contribuyen al cuidado del ambiente y que solo implican pequeños cambios en nuestra forma de consumo.</p>
       <p><strong>Reducir, reutilizar y reciclar el plástico.</strong></p>
       <p>El plástico debido a su manera sencilla y económica de producción, a su practicidad y versatilidad de usos se produce a grandes escalas, cambiando nuestras vidas, pero también saturando el entorno en el que vivimos. Según el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), la población mundial desecha todos los años el equivalente de su propio peso en plásticos. El mismo informe advierte que el 9% se recicla, el 12% se incinera y el 79% restante sigue dando vueltas.</p>
@@ -192,7 +192,8 @@ const neonYellow = {
   border: "none",
   borderRadius: "20px",
   padding: "1em 0.5em 0.2em 1em",
-  boxShadow: "0px 5px 26px 8px rgb(255, 144, 1)"
+  boxShadow: "0px 5px 26px 8px rgb(255, 144, 1)",
+  margin: "2em 0 2em 0"
 }
 
 const textGlow = {
