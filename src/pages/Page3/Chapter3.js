@@ -66,6 +66,39 @@ function Chapter3() {
         <li>Al incorporar aleros, parasoles y persianas, tené en cuenta que para la orientación norte la protección solar debe ser horizontal, mientras que al este y al oeste debe ser vertical.</li>
         <li>Mantené cerradas las cortinas y/o persianas durante la noche, esto amortigua bastante la incidencia de las temperaturas bajas del exterior.</li>
       </ul>
+      <h3 style={textGlow}>El aislamiento<br/>en muros y techos convencionales</h3>
+      <ol> {/*(foto pag 55) */}
+        <li>Adhesivo</li>
+        <li>Aislante</li>
+        <li>Anclaje mecánico</li>
+        <li>Capa base</li>
+        <li>Malla de refuerzo</li>
+        <li>Mortero de adhesión</li>
+        <li>Imprimación</li>
+        <li>Revestimiento</li>
+      </ol>
+      <ol> {/* foto pag 56 */}
+        <li>Cubierta de tejas cerámicas</li>
+        <li>Listones clavadores de 2 x 1"</li>
+        <li>Listones escurridores de 2 x 1</li>
+        <li>Placas de EPS de densidad media</li>
+        <li>Barrera de vapor</li>
+        <li>Madera machimbrada</li>
+        <li>Tirantes estructurales</li>
+      </ol>
+      <ol> {/* foto pag 57 */}
+        <li>Cubierta de chapa</li>
+        <li>Placas longitudinales de EPS (entre clavaderas)</li>
+        <li>Listones clavadores de 2 x 1" o 2 x 2"</li>
+        <li>Placas transversales de EPS (entre listones escurridores)</li>
+        <li>Listones escurridores de 2 x 1"</li>
+        <li>Barrera de vapor</li>
+        <li>Madera machimbrada</li>
+        <li>Tirantes estructurales</li>
+      </ol>
+      <h3 style={textGlow}>Ecobotellas y ecoladrillos</h3> {/*foto pag 58*/}
+      <p>Hacer <strong>ecoladrillos</strong> o <strong>ecobotellas</strong> para la construcción de un espacio es una alternativa creativa y simple. Comienza con rellenar botellas plásticas de menos de 3 litros con cualquier tipo de residuos plásticos y papel aluminio limpio, para luego reutilizar como aislante acústico, térmico y envolvente. Estos materiales sirven para armar tabiques interiores o exteriores, siempre que estén debidamente contenidos en una estructura adecuada para soportar las cargas (encadenados).</p>
+      <h3 style={textGlow}>Otros materiales, nuevas posibilidades</h3>
     </div>
   );
 }
