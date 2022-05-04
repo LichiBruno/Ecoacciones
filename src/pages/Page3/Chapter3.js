@@ -99,6 +99,17 @@ function Chapter3() {
       <h3 style={textGlow}>Ecobotellas y ecoladrillos</h3> {/*foto pag 58*/}
       <p>Hacer <strong>ecoladrillos</strong> o <strong>ecobotellas</strong> para la construcción de un espacio es una alternativa creativa y simple. Comienza con rellenar botellas plásticas de menos de 3 litros con cualquier tipo de residuos plásticos y papel aluminio limpio, para luego reutilizar como aislante acústico, térmico y envolvente. Estos materiales sirven para armar tabiques interiores o exteriores, siempre que estén debidamente contenidos en una estructura adecuada para soportar las cargas (encadenados).</p>
       <h3 style={textGlow}>Otros materiales, nuevas posibilidades</h3>
+      <p>El Centro Experimental de la Vivienda Económica (CEVE) es un centro de investigación, experimentación, desarrollo y transferencia de tecnologías de construcción y gestión integral, destinadas a la producción social del hábitat. CEVE es una unidad ejecutora de doble dependencia: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) y Asociación de Vivienda Económica (AVE)</p>
+      <p><strong>Desde la producción de CEVE (CONICET-AVE), se proponen dos sistemas con materiales reciclados:</strong></p> 
+      {/* fotos pag 59 */}
+      <h4 style={green}>Tejas de caucho</h4>
+      <p>Se aplican en cubiertas inclinadas, sobre estructuras de madera. Están elaboradas con materiales reciclados procedentes de desechos industriales plásticos y de neumáticos en desuso.</p>
+      <p>Los materiales se trituran y moldean con prensa. Estas tejas son más resistentes a la flexión, a la heladicidad y al granizo, que las tejas tradicionales como la cerámica o la de hormigón y además son más livianas.</p>
+      <p>Este desarrollo ha sido reconocido a nivel internacional, ganando el <em><strong>Recircle Awards 2021</strong></em>, como Mejor Producto Reciclado Derivado del Neumático.</p>
+      <h4 style={green}>Ladrillos PET</h4>
+      <p>Son elaborados con una mezcla de partículas de plástico PET procedente de residuos plásticos como envases descartables de bebidas, ligadas con cemento Portland y aditivos.</p>
+      <p>Desde el punto de vista técnico, el ladrillo PET se destaca también en lo que respecta a aislamiento térmico y liviandad.</p>
+      <p>Para conocer más detalles sobre este producto, te facilitamos el siguiente vídeo:</p>
     </div>
   );
 }
