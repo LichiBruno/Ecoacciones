@@ -110,6 +110,21 @@ function Chapter3() {
       <p>Son elaborados con una mezcla de partículas de plástico PET procedente de residuos plásticos como envases descartables de bebidas, ligadas con cemento Portland y aditivos.</p>
       <p>Desde el punto de vista técnico, el ladrillo PET se destaca también en lo que respecta a aislamiento térmico y liviandad.</p>
       <p>Para conocer más detalles sobre este producto, te facilitamos el siguiente vídeo:</p>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cphy45vLDvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3 style={textGlow}>Colector solar térmico</h3>
+      <p>Es un tipo de panel encargado de capturar la radiación solar y transformarla en energía térmica. Por tal motivo, a esta fuente de energía renovable se le llama <strong>energía solar térmica</strong>.</p>
+      <p>Hay muchos tipos de colectores solares y sus sistemas dependen del uso que queramos darle a los mismos.</p>
+      <p>Cuando se precisan temperaturas menores a los 80°C (para calentar agua sanitaria, para climatizar gramdes camtodades de agua) los colectores utilizados son los de placa plana o planos.</p>
+      <p>A continuación desarrollamos una propuesta para construir uno en casa.</p>
+      <p>En primer lugar, habrá que juntar suficientes botellas plásticas para llevar a cabo este proyecto. Todo dependerá de la capacidad que queramos para el calentador. A mayor capacidad, más botellas. Es recomendable comenzar con un proyecto pequeño para aprender la técnica.</p>
+      <p>Las botellas deben estar limpias, sin tapas ni etiquetas y serán todas del mismo formato y tamaño.</p>
+      <ul>
+        <li>Perforar las bases de las botellas (la perforación no debería ser mayor que la boca de la botella, ya que por allí pasará un caño de polietileno entre las botellas).</li>
+        <li>Enhebramos el caño de polietileno a través de la botella.</li>
+        <li>En este gráfico vemos un esquema de cómo deberían quedar enhebradas las botellas y como deberíamos conducir el caño.</li>
+        <li>Un colector solar térmico funciona como una trampa de calor, donde la radiación solar queda atrapada por el efecto invernadero dentro del calentador. Estos artefactos no necesitan energía externa para poder funcionar. Usan el principio de convección para mover el agua.</li>
+      </ul>
+      <p>Para conocer más detalles sobre esta ingeniosa opción, te facilitamos el siguiente vídeo:</p>
     </div>
   );
 }
